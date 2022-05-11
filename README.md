@@ -5,3 +5,5 @@ This is a new project to sync Ethereum community GitHub repos to other systems, 
 Currently the @ethereum-git-sync bot account is used to sync git repos and GitHub issues.
 
 This bot is currently sync'ing selected sets of GitHub issues to this repo: https://github.com/ethereum-git-sync/issue_archive.
+
+On Gitee select git repos are sync'd here: https://gitee.com/ethereum
