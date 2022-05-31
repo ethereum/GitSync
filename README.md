@@ -9,9 +9,15 @@ This bot is currently sync'ing selected sets of GitHub issues to this repo: http
 On Gitea select git repos are sync'd here: https://gitea.com/EthereumFoundation
 
 Currently Synced Repositories:
-  ethereum/devops
-  ethereum/blockies
-  ethereum/EIPs
-  ethereum/go-ethereum
-  ethereum/remix-project
-  ethereum/solidity
+  
+  - ethereum/devops
+  
+  - ethereum/blockies
+  
+  - ethereum/EIPs
+  
+  - ethereum/go-ethereum
+  
+  - ethereum/remix-project
+  
+  - ethereum/solidity
