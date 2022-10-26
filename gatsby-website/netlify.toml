@@ -1,0 +1,7 @@
+[build]
+  command = "yarn build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "v18.11.0"
+
