@@ -1,15 +1,16 @@
 {
-  "name": "cryptography-research-website",
+  "name": "git-sync-website",
   "private": false,
-  "description": "Ethereum Foundation's Cryptography Research Website",
+  "description": "Ethereum Foundation's GitSync Website",
   "version": "1.0.0",
-  "author": "Nicolás Quiroz <nicolas.quiroz@ethereum.org>",
+  "author": "Git Sync Team <git-sync@ethereum.org>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next deploy"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
@@ -33,7 +34,7 @@
   },
   "devDependencies": {
     "@types/node": "18.11.0",
-    "@types/react": "^18.0.21",
+    "@types/react": "^18.0.23",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.5.0",

@@ -13,7 +13,7 @@ const Events: NextPage = () => {
 
       <main>
         <Heading as='h1' mb={10}>
-          Sync'd Repositories
+          Sync&apos;d Repositories
         </Heading>
 
         <Stack mb={6} spacing={8}>

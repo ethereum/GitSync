@@ -3,7 +3,11 @@ import { FC } from 'react';
 
 import { Footer, Header } from '../UI';
 
-export const Layout: FC = ({ children }) => {
+type LayoutProps = {
+  children?: React.ReactNode;
+}
+
+export const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
       {/* <Container maxW={{ lg: 'container.lg' }} px={0}> */}
