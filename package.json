@@ -6,7 +6,7 @@
   "author": "Git Sync Team <git-sync@ethereum.org>",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
