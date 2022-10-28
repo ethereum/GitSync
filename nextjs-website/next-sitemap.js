@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://crypto.ethereum.org',
+  siteUrl: 'https://gitsync.ethereum.org',
   generateRobotsTxt: true
 };
