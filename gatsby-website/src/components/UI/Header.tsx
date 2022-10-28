@@ -22,7 +22,7 @@ export const Header: FC = () => {
           </Box>
 
           <Box pt={4} onClick={() => router.push(HOME_URL)} cursor='pointer'>
-            <strong><nobr>Git-Sync Project</nobr></strong>
+            <strong>Git-Sync Project</strong>
           </Box>
           
           <Box pt={4}>

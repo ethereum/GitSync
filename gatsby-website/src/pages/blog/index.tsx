@@ -39,18 +39,6 @@ interface Props {
   posts: MarkdownPost[];
 }
 
-// Add here the list of external blog posts, with title, date and link.
-// These external links will appear below the links to posts from BLOG_POSTS_DIR.
-const externalLinks = [
-  /*
-  {
-    title: 'External Link',
-    date: '2020-02-02',
-    link: 'https://ethereum.org'
-  }
-  */
-];
-
 const Blog: NextPage<Props> = ({ posts }) => {
   const internalPosts = posts.map(post => {
     //extract slug and frontmatter
@@ -62,10 +50,6 @@ const Blog: NextPage<Props> = ({ posts }) => {
     //JSX for individual blog listing
     return <InternalPost key={slug} date={date} slug={slug} title={title} />;
   });
-
-  const externalPosts = externalLinks.map(({ date, link, title }) => (
-    <ExternalPost key={link} date={date} link={link} title={`${title} ↗`} />
-  ));
 
   return (
     <>
@@ -79,7 +63,7 @@ const Blog: NextPage<Props> = ({ posts }) => {
           Announcements
         </Heading>
 
-        <Stack spacing={2}>{internalPosts.concat(externalPosts).sort(sortByDate)}</Stack>
+        <Stack spacing={2}>{internalPosts.sort(sortByDate)}</Stack>
 
         {/* <HStack spacing={8} alignItems='flex-start' wrap='wrap'>
           <TweetEmbed tweetId='1506958509195374598' />
