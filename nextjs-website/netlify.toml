@@ -1,6 +1,6 @@
 [build]
   command = "yarn build"
-  publish = "nextjs-website/.next"
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "v18.11.0"
