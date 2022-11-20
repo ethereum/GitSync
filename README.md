@@ -2,14 +2,15 @@
 
 This project aims to demonstrate how Ethereum community repos and issues hosted on GitHub can be easily restored on another similar service, whether commercial of self-hosted.
 
+## Resources
+
+[Project website](https://gitsync.ethereum.org/)
+
 [Project repo](https://github.com/ethereum/git-sync) - (you are here!) links to resources, coordination and feedback
-[https://github.com/ethereum/git-sync](https://github.com/ethereum/git-sync)
 
 [GitSync codebase](https://github.com/ethereum-git-sync/GitSync) - scripts used to perform syncs and fetching of issues
-[https://github.com/ethereum-git-sync/GitSync](https://github.com/ethereum-git-sync/GitSync)
 
 [Issues archive](https://github.com/ethereum-git-sync/github-issues-archive) - JSON containing GitHub issues and comments for selected repositories
-[https://github.com/ethereum-git-sync/github-issues-archive](https://github.com/ethereum-git-sync/github-issues-archive)
 
 ## Frequently Asked Questions
 
