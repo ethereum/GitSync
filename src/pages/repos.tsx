@@ -20,7 +20,7 @@ const Events: NextPage = () => {
 
           <hr/>
 
-          <Heading as='h2' fontSize='3xl'>
+          <Heading as='h2' fontSize='2xl'>
             Protocol Clients
           </Heading>
 
@@ -31,8 +31,8 @@ const Events: NextPage = () => {
 
           <hr/>
 
-          <Heading as='h2' fontSize='3xl'>
-            Coordination
+          <Heading as='h2' fontSize='2xl'>
+            Protocol Coordination
           </Heading>
 
           <Repository service="github" uri="ethereum/consensus-specs" title="Consensus Specs">
@@ -49,7 +49,7 @@ const Events: NextPage = () => {
 
           <hr/>
 
-          <Heading as='h2' fontSize='3xl'>
+          <Heading as='h2' fontSize='2xl'>
             DeFi
           </Heading>
 
@@ -63,8 +63,8 @@ const Events: NextPage = () => {
 
           <hr/>
 
-          <Heading as='h2' fontSize='3xl'>
-            Dev Tools
+          <Heading as='h2' fontSize='2xl'>
+            Developer Tools
           </Heading>
 
           <Repository service="github" uri="ethereum/remix-project" title="Remix Project">

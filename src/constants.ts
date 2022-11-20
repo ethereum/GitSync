@@ -16,6 +16,7 @@ export const NAV_LINKS = [
 // metadata
 export const HEAD_TITLE_LONG = 'Ethereum Community Git Sync Project';
 export const HEAD_TITLE_SHORT = 'Git Sync Project';
+export const HEAD_DESCR = 'Coordination and infra for sychronizing Ethereum-related git repos and issues across services';
 
 // posts
 export const BLOG_POSTS_DIR = 'src/blog-posts';

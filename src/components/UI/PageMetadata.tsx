@@ -9,12 +9,12 @@ interface Props {
 }
 
 export const PageMetadata: FC<Props> = ({ title, description }) => {
-  const HEAD_TITLE = title.length > 20 ? HEAD_TITLE_SHORT : HEAD_TITLE_LONG;
+  const HEAD_TITLE = HEAD_TITLE_SHORT + ' - ' + title;
 
   return (
     <Head>
       <title>
-        {title} | {HEAD_TITLE}
+        {HEAD_TITLE}
       </title>
       <meta name='title' content={`${title} | ${HEAD_TITLE}`} />
       <meta name='description' content={description} />
