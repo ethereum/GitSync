@@ -1,23 +1,34 @@
-# Ethereum Git Sync
+# Git Sync Project
 
-This is a new project to sync Ethereum community GitHub repos to other systems, including Gitee and IPFS.
+This project aims to demonstrate how Ethereum community repos and issues hosted on GitHub can be easily restored on another similar service, whether commercial of self-hosted.
 
-Currently the @ethereum-git-sync bot account is used to sync git repos and GitHub issues.
+[Project repo](https://github.com/ethereum/git-sync) - (you are here!) links to resources, coordination and feedback
+[https://github.com/ethereum/git-sync](https://github.com/ethereum/git-sync)
 
-This bot is currently sync'ing selected sets of GitHub issues to this repo: https://github.com/ethereum-git-sync/issue_archive.
+[GitSync codebase](https://github.com/ethereum-git-sync/GitSync) - scripts used to perform syncs and fetching of issues
+[https://github.com/ethereum-git-sync/GitSync](https://github.com/ethereum-git-sync/GitSync)
 
-On Gitea select git repos are sync'd here: https://gitea.com/EthereumFoundation
+[Issues archive](https://github.com/ethereum-git-sync/github-issues-archive) - JSON containing GitHub issues and comments for selected repositories
+[https://github.com/ethereum-git-sync/github-issues-archive](https://github.com/ethereum-git-sync/github-issues-archive)
 
-Currently Synced Repositories:
-  
-  - ethereum/devops
-  
-  - ethereum/blockies
-  
-  - ethereum/EIPs
-  
-  - ethereum/go-ethereum
-  
-  - ethereum/remix-project
-  
-  - ethereum/solidity
+## Frequently Asked Questions
+
+### Which repos are sync'd?
+
+👉  See the list of [Sync'd Repositories](https://gitsync.ethereum.org/repos).
+
+### Where are these repos sync'd to?
+
+👉  We currently sync repos to a test account on Bitbucket: [https://bitbucket.org/ethereum-base/](https://bitbucket.org/ethereum-base/).
+
+### How do I submit my Ethereum-related repo to Git Sync?
+
+👉  Please read the instructions on the [Submit My Repo](https://gitsync.ethereum.org/submit) page.
+
+### What are the qualifications for inclusion of my repo in Git Sync?
+
+👉  The policy about inclusion are detailed on the [Submit My Repo](https://gitsync.ethereum.org/submit) page.
+
+### Where do I ask questions or point out problems?
+
+👉  Please [submit an issue on the project repo](https://github.com/ethereum/git-sync/issues) and one of the maintainers will reply.
