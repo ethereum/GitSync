@@ -33,7 +33,6 @@ const Team: NextPage = () => {
             <p>
               When you submit the issue, please specify the following information: 
 
-
               <ol style={{ marginLeft: '1rem' }}>
                 <li>Project repo URL</li>
                 <li>Title and description</li>
@@ -49,7 +48,7 @@ const Team: NextPage = () => {
             <Heading as='h2' fontSize='3xl'>Criteria For Inclusion</Heading>
 
             <p>
-              Generally, the repo would be fit for inclusion if it could be hosted under the "ethereum" GitHub organization, a resource managed for the community by the Ethereum Foundation.
+              Generally, the repo would be fit for inclusion if it could be hosted under the &#8221;ethereum&#8221; GitHub organization, a resource managed for the community by the Ethereum Foundation.
             </p>
 
             <p>

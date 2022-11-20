@@ -66,21 +66,21 @@ const Home: NextPage = () => {
           <h2><strong>Frequently Asked Questions</strong></h2>
 
           <p>
-            <h4>Which repos are sync'd?</h4>
-            &#128073; &nbsp;
+            <h4>Which repos are sync&quot;d?</h4>
+            <span>&#128073;</span> <span>&nbsp;</span>
             <em>
             See the list of <Link 
               href='/repos'
               color='brand.lightblue'
               _hover={{ color: 'brand.orange', textDecoration: 'underline' }}
               isExternal
-              >Sync'd Repositories</Link>.
+              >Sync&quot;d Repositories</Link>.
             </em>
           </p>
 
           <p>
-            <h4>Where are these repos sync'd to?</h4>
-            &#128073; &nbsp;
+            <h4>Where are these repos sync&quot;d to?</h4>
+            <span>&#128073;</span> <span>&nbsp;</span>
             <em>
             We currently sync repos to a test account on Bitbucket: <Link 
               href='https://bitbucket.org/ethereum-base/'
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
 
           <p>
             <h4>How do I submit my Ethereum-related repo to Git Sync? </h4>
-            &#128073; &nbsp;
+            <span>&#128073;</span> <span>&nbsp;</span>
             <em>
             Please read the instructions on the <Link 
               href='/submit'
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
 
           <p>
             <h4>What are the qualifications for inclusion of my repo in Git Sync?</h4>
-            &#128073; &nbsp;
+            <span>&#128073;</span> <span>&nbsp;</span>
             <em>
               The policy about inclusion are detailed on the <Link 
               href='/submit'
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
 
           <p>
             <h4>Where do I ask questions or point out problems?</h4>
-            &#128073; &nbsp;
+            <span>&#128073;</span> <span>&nbsp;</span>
             <em>
               Please <Link 
               href='https://github.com/ethereum/git-sync/issues'
